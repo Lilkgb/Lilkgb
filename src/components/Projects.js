@@ -119,6 +119,16 @@ function Projects(){
                         <a href="https://github.com/Lilkgb/solar-simulator" target="_blank">Github</a>
                     </div>
                 </div>
+                <div className={projectView}>
+                    <h3>My Budget</h3>
+                    <a href="https://mybudget-a3e24.firebaseapp.com/#/" target="_blank"><img src={require('../assets/images/myBudget.jpg')}></img></a>
+                    <div className='info'>
+                        <p>"My Budget" is a free, no subscription application I created for users to be able to create their own budget but also much more. Users can input their debts they have and keep track of payments they have made and the status of that debt. There is also a savings section for people who want to track how much money they have saved for a car or any other item they want to save up for.</p>
+                        <a href="https://mybudget-a3e24.firebaseapp.com/#/" target="_blank">View Live Site</a>
+                        <br/>
+                        <a href="https://github.com/Lilkgb/myBudget" target="_blank">Github</a>
+                    </div>
+                </div>
             </div>
             <h1 style={{color: "white", textAlign: "center"}}>Plus many more on my <a href="https://github.com/Lilkgb" target="_blank" className="githubLink">Github profile</a>.</h1>
             </Parallax>
