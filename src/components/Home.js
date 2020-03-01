@@ -10,7 +10,7 @@ function Home(props){
 
   const [headerView, setHeaderView] = useState(null);
   const [mobileMenu, setMobileView] = useState(false);
-  const [employmentHistory, setEmploymentHistory] = useState(true);
+  const [employmentHistory, setEmploymentHistory] = useState(false);
 
   let emHistory;
 

@@ -14,7 +14,7 @@ function EmploymentHistory(){
         justify-content: center;
         align-items: center;
         .container{
-            width: 90vw;
+            width: 80vw;
             height: 90vh;
             padding: 10px;
             background-color: black;
@@ -25,9 +25,9 @@ function EmploymentHistory(){
             h1{
                 padding: 5px;
                 position: sticky;
-                text-decoration: underline;
                 top: -10px;
                 background-color: black;
+                border-bottom: 1px solid teal;
             }
         }
     `
