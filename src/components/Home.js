@@ -4,11 +4,21 @@ import Landing from './Landing';
 import Projects from './Projects';
 import * as Scroll from 'react-scroll';
 import Contact from './Contact';
+import EmploymentHistory from './EmploymentHistory';
 
 function Home(props){
 
   const [headerView, setHeaderView] = useState(null);
   const [mobileMenu, setMobileView] = useState(false);
+  const [employmentHistory, setEmploymentHistory] = useState(true);
+
+  let emHistory;
+
+  if(employmentHistory){
+    emHistory = <EmploymentHistory />
+  } else {
+      emHistory = null;
+  }
 
   let Link       = Scroll.Link;
   let Element    = Scroll.Element;
@@ -100,6 +110,7 @@ function Home(props){
   }
   return(
     <div>
+      {emHistory}
       <div className={headerView}>
         {header}
       </div>
@@ -110,7 +121,7 @@ function Home(props){
         <Projects/>  
       </Element>
       <Element name="contact" className="element">
-        <Contact/>  
+        <Contact setEmployment={() => setEmploymentHistory(true)}/>  
       </Element>
       <button onClick={scrollToTop} className="backToTop">Back to the top!</button>
     </div>

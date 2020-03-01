@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import { Parallax, Background } from 'react-parallax';
 import styled from 'styled-components';
 
-function Contact(){
+function Contact(props){
     
     const [view, setView] = useState(null);
 
@@ -71,6 +71,13 @@ function Contact(){
             height: 100vh;
             padding-top: 60px;
         }
+        .history{
+            cursor: pointer;
+            &:hover{
+                color: teal;
+                text-decoration: underline;
+            }
+        }
     `
     
     return(
@@ -82,6 +89,7 @@ function Contact(){
                     <h3>Email: <a href="mailto:rmcleandev@gmail.com">rmcleandev@gmail.com</a></h3>
                     <h3><a href="https://www.linkedin.com/in/ryan-mclean-developer/" target="_blank"><img src={require('../assets/images/linkedin.png')}/>LinkedIn</a></h3>
                     <h3><a href="https://github.com/Lilkgb" target="_blank"><img src={require('../assets/images/github.png')}/>Github</a></h3>
+                    <p className="history" onClick={props.setEmployment}>Employment History</p>
                 </div>
             </div>
         </Parallax>
