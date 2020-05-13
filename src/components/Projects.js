@@ -64,7 +64,6 @@ function Projects(){
         .desktop{
             animation: background 1s linear forwards;
             padding-top: 60px;
-            height: 100vh;
         }
         .mobile{
             animation: background 1s linear forwards;
@@ -72,8 +71,6 @@ function Projects(){
         }
         .bigView{
             animation: background 1s linear forwards;
-            margin: auto;
-            height: 100vh;
             padding-top: 60px;
         }
         .githubLink{
