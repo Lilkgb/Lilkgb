@@ -64,14 +64,17 @@ function Projects(){
         .desktop{
             animation: background 1s linear forwards;
             padding-top: 60px;
+            padding-bottom: 60px;
         }
         .mobile{
             animation: background 1s linear forwards;
             padding-top: 60px;
+            padding-bottom: 60px;
         }
         .bigView{
             animation: background 1s linear forwards;
             padding-top: 60px;
+            padding-bottom: 60px;
         }
         .githubLink{
             Color: white;
@@ -127,7 +130,7 @@ function Projects(){
                     </div>
                 </div>
             </div>
-            <h1 style={{color: "white", textAlign: "center"}}>Plus many more on my <a href="https://github.com/Lilkgb" target="_blank" className="githubLink">Github profile</a>.</h1>
+            <h1 style={{color: "white", textAlign: "center", maring: "0px", padding: "0px"}}>Plus many more on my <a href="https://github.com/Lilkgb" target="_blank" className="githubLink">Github profile</a>.</h1>
             </Parallax>
         </Div>
     )
