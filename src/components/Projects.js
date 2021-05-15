@@ -96,7 +96,7 @@ function Projects(){
                         <p>Come make a facebook account on my facebook. This is a personal project all about cloning facebook and it's functionality in Angular. End target is to function just how facebook does. Users can create an account and go to their profile page and update their profile image and banner image and much more.</p>
                         <a href="https://theclonedfacebook.firebaseapp.com/" target="_blank">View Live Site</a>
                         <br/>
-                        <a href="https://github.com/Lilkgb/Facebook-Angular" target="_blank">Github</a>
+                        <a href="https://github.com/RMcLeanDev/Facebook-Angular" target="_blank">Github</a>
                     </div>
                 </div>
                 <div className={projectView}>
@@ -106,7 +106,7 @@ function Projects(){
                         <p>This project is all about sass and styling and prototyping. We were given a customers information and the target was to protype a website for the customer and build it using sass and webpack.</p>
                         <a href="https://uiwk4.netlify.com/" target="_blank">View Live Site</a>
                         <br/>
-                        <a href="https://github.com/Lilkgb/XO-Cafe" target="_blank">Github</a>
+                        <a href="https://github.com/RMcLeanDev/XO-Cafe" target="_blank">Github</a>
                     </div>
                 </div>
                 <div className={projectView}>
@@ -116,7 +116,7 @@ function Projects(){
                         <p>Please allow loading time if viewing this project. This is a ThreeJS simulation of the solar system in a React environment, using the ISS API to display the live coordinates of the Space Station. This was a group project I got to be apart of during my time at epicodus.</p>
                         <a href="https://www.icarus-lives.com/#/" target="_blank">View Live Site</a>
                         <br/>
-                        <a href="https://github.com/Lilkgb/solar-simulator" target="_blank">Github</a>
+                        <a href="https://github.com/RMcLeanDev/solar-simulator" target="_blank">Github</a>
                     </div>
                 </div>
                 <div className={projectView}>
@@ -126,11 +126,11 @@ function Projects(){
                         <p>"My Budget" is a free, no subscription application I created for users to be able to create their own budget but also much more. Users can input their debts they have and keep track of payments they have made and the status of that debt. There is also a savings section for people who want to track how much money they have saved for a car or any other item they want to save up for.</p>
                         <a href="https://mybudget-a3e24.firebaseapp.com/#/" target="_blank">View Live Site</a>
                         <br/>
-                        <a href="https://github.com/Lilkgb/myBudget" target="_blank">Github</a>
+                        <a href="https://github.com/RMcLeanDev/myBudget" target="_blank">Github</a>
                     </div>
                 </div>
             </div>
-            <h1 style={{color: "white", textAlign: "center", maring: "0px", padding: "0px"}}>Plus many more on my <a href="https://github.com/Lilkgb" target="_blank" className="githubLink">Github profile</a>.</h1>
+            <h1 style={{color: "white", textAlign: "center", maring: "0px", padding: "0px"}}>Plus many more on my <a href="https://github.com/RMcLeanDev" target="_blank" className="githubLink">Github profile</a>.</h1>
             </Parallax>
         </Div>
     )

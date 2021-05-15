@@ -88,7 +88,7 @@ function Contact(props){
                     <input placeholder="email" style={{display: "none"}}/>
                     <h3>Email: <a href="mailto:rmcleandev@gmail.com">rmcleandev@gmail.com</a></h3>
                     <h3><a href="https://www.linkedin.com/in/ryan-mclean-developer/" target="_blank"><img src={require('../assets/images/linkedin.png')}/>LinkedIn</a></h3>
-                    <h3><a href="https://github.com/Lilkgb" target="_blank"><img src={require('../assets/images/github.png')}/>Github</a></h3>
+                    <h3><a href="https://github.com/RMcLeanDev" target="_blank"><img src={require('../assets/images/github.png')}/>Github</a></h3>
                 </div>
             </div>
         </Parallax>
